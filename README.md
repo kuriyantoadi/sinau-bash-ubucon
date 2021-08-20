@@ -1,0 +1,1 @@
+# sinau-bash-ubucon
