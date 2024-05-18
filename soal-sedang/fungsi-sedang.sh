@@ -360,13 +360,12 @@ function soal19() {
 
   hash_jwb19=$(echo -n $jwb19 | sha256sum | cut -d' ' -f1)
   case $hash_jwb19 in
-    "a8b3784cc4f8d793441ca0345a6c77420978b97b3b859cb6e710bcc4c9ffc7e5")
+    "0a64ce10853f25cb3dc3f7d498f62d72b406be37ba8caf5aa7671414d9696049")
       nil19=1
       echo -e "\033[1;32m   Jawaban anda benar\033[0m"
       ;;
     *)
       echo -e "\033[1;31m   Maaf jawaban anda salah\033[0m"
-      echo -e "cat"
       ;;
   esac
 }
